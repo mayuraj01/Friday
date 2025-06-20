@@ -3,8 +3,8 @@ import 'package:friday/api.dart';
 import 'package:http/http.dart' as http;
 
 class OpenAIService {
-  final String apiKey = 'AIzaSyCrKlbwkERtHFUK-b6Y_usntHToEzmguv4';
-  final String geminiUrl = 'https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent';
+  final String apiKey = 'Your api key';
+  final String geminiUrl = 'Your api key';
   // Function to determine if the prompt is for image generation
   Future<String> isArtPromptAPI(String prompt) async {
     try {
